@@ -1,0 +1,18 @@
+body{
+    background-color: "#777";
+}
+
+.app-content{
+    outline: 1px solid red;
+    min-height: calc(100vh - 50px);
+    margin-top: 50px;
+    margin-left: 230px;
+    padding: 30px;
+    background-color: #f3f3f3;
+    transition: margin-left 0.3s ease;
+    @media (max-width: 767px) {
+    
+        margin-left: 0px;
+    
+    }
+}

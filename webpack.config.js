@@ -48,7 +48,7 @@ module.exports = {
                 test: /\.(eot|woff|woff2|ttf|svg)(\?\S*)?$/,
                 use: [
                     {
-                        loader: 'file-lader',
+                        loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
                             outputPath: '../fonts/',
